@@ -1,0 +1,90 @@
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+
+header{
+    margin-left: 1rem;
+}
+
+#toggle-btn{  
+    height: 4rem;    
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    height: 4rem;
+}
+
+img:hover { 
+    opacity: 0.3;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+ul {
+    margin: 0;
+}
+
+.menu-btn{
+    display: block;
+    width: 6rem;
+    border: solid 2px black;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 2rem;
+    box-shadow: 0 4px 4px 0 rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    border: solid 2px white;
+    opacity: 0.8;
+}
+
+.cadetblue{
+    background-color: cadetblue;
+}
+.rood{
+    background-color: rgb(253, 90, 90);
+
+}
+
+.oranje{
+    background-color: rgb(252, 196, 93);
+}
+
+.geel{
+    background-color: rgb(255, 255, 111);
+}
+
+.groen{
+    background-color: rgb(105, 199, 105);
+}
+
+.blauw{
+    background-color: rgb(94, 201, 250);
+}
+
+.paars{
+    background-color: rgb(175, 120, 175);
+}
+
+h2{
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.233);
+    text-align: center;
+}
